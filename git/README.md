@@ -7,7 +7,7 @@
 2. <code>git config --global user.name "내 이름"</code>
 ----
 #### 기본 명령어
-- 초기화?
+- git 
   - <code>git init</code>
 - 원격 저장소로부터 복제
   - <code>git clone {url}</code>
