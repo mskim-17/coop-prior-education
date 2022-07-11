@@ -25,6 +25,9 @@
 * <code>git revert {커밋번호 첫 여섯자리}</code> : 해당 커밋 되돌리기 및 revert 기록 남음
 * 정리 링크 : https://gmlwjd9405.github.io/2018/05/25/git-add-cancle.html
 
+#### 변경사항 가져오기
+* <code>git fetch {원격 저장소 명}</code> : 
+* * <code>git pull {원격 저장소 명} {브랜치 명}</code> : fetch + merge
 ----
 #### push 시 정보 입력 (Github)
 1. [Creating a personal access token 도움말](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)에 따라 토큰 생성
@@ -40,3 +43,4 @@
 - https://ebbnflow.tistory.com/196
 - https://youngest-programming.tistory.com/220
 - https://gmlwjd9405.github.io/2018/05/25/git-add-cancle.html
+- https://sabarada.tistory.com/75
