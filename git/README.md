@@ -27,7 +27,7 @@
 
 #### 변경사항 가져오기
 * <code>git fetch {원격 저장소 명}</code> : 
-* * <code>git pull {원격 저장소 명} {브랜치 명}</code> : fetch + merge
+* <code>git pull {원격 저장소 명} {브랜치 명}</code> : fetch + merge
 ----
 #### push 시 정보 입력 (Github)
 1. [Creating a personal access token 도움말](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)에 따라 토큰 생성
