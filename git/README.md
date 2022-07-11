@@ -17,6 +17,7 @@
 * <code>git add *</code> : 전체 파일 스테이징 (<code>.gitignore</code> 변경 사항 있을 시 경고)
 * <code>git add .</code> : 전체 파일 스테이징 (<code>.gitignore</code> 내 파일 제외)
 * <code>git reset HEAD {파일명}</code> : 특정 파일 스테이징 취소
+* * <code>HEAD</code> : 해당 브랜치의 마지막 커밋
 
 #### 커밋: git에 변경사항 반영
 * <code>git commit -m "요약"</code> : 변경사항 반영
@@ -44,3 +45,4 @@
 - https://youngest-programming.tistory.com/220
 - https://gmlwjd9405.github.io/2018/05/25/git-add-cancle.html
 - https://sabarada.tistory.com/75
+- https://kotlinworld.com/272
