@@ -29,6 +29,16 @@
 #### 변경사항 가져오기
 * <code>git fetch {원격 저장소 명}</code> : 
 * <code>git pull {원격 저장소 명} {브랜치 명}</code> : fetch + merge
+* <code>git config pull.rebase false</code> : merge
+* <code>git config pull.rebase true</code> : rebase
+* <code>git config pull.ff only</code> : fast-forward only
+
+#### git 복구 (reset, rebase)
+* <code>git reflog</code> : 삭제된 커밋 id 확인
+* <code>git reset --hard {커밋번호 첫 여섯자리}</code> : 커밋 복구
+* <code>git reflog |grep {브랜치 명}</code> : 삭제된 브랜치 확인
+* <code>git checkout -b {브랜치 명} {커밋번호 첫 여섯자리}</code> : 브랜치 복구
+
 ----
 #### push 시 정보 입력 (Github)
 1. [Creating a personal access token 도움말](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)에 따라 토큰 생성
@@ -46,3 +56,4 @@
 - https://gmlwjd9405.github.io/2018/05/25/git-add-cancle.html
 - https://sabarada.tistory.com/75
 - https://kotlinworld.com/272
+- https://suwoni-codelab.com/git/2018/04/07/Git-reflog/
