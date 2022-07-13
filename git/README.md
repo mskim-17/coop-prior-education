@@ -48,10 +48,19 @@
 * <code>git branch -d {브랜치 명}</code> : {브랜치 명} 브랜치를 삭제
 
 ----
-#### 메시지 작성 방식?
-1. 변경 내용 요약
-2. (줄 공백)
-3. 변경 이유
+#### 커밋 메시지 작성 방식
+<pre>
+Type: Subject
+
+Body
+
+Footer (optional)
+</pre>
+* Type: <code>feat</code>, <code>fix</code>, <code>docs</code>, <code>style</code>, <code>refactor</code>, <code>test</code>, <code>chore</code>
+* Subject: 50자 이내, 개조식 구문
+* Body: 한 줄 당 72자, 무엇을, 왜
+* Footer: <code>유형: #이슈 번호</code> (<code>Fixes</code>, <code>Resolves</code>, <code>Ref</code>, <code>Related to</code>)
+* 참고 자료: [Git | git 커밋컨벤션 설정하기](https://velog.io/@shin6403/Git-git-%EC%BB%A4%EB%B0%8B-%EC%BB%A8%EB%B2%A4%EC%85%98-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0)
 
 ----
 #### push 시 정보 입력 (Github)
