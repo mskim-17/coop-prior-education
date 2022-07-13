@@ -39,6 +39,13 @@
 * <code>git reflog |grep {브랜치 명}</code> : 삭제된 브랜치 확인
 * <code>git checkout -b {브랜치 명} {커밋번호 첫 여섯자리}</code> : 브랜치 복구
 
+#### branch 관리
+* checkout : branch 사용 선언
+* stash : 파일의 변경 내용 일시적으로 기록
+* <code>git branch {브랜치 명}</code> : {브랜치 명}으로 브랜치 생성
+* <code>git checkout {브랜치 명}</code> : {브랜치 명} 브랜치를 체크아웃
+* <code>git branch -d {브랜치 명}</code> : {브랜치 명} 브랜치를 삭제
+
 ----
 #### push 시 정보 입력 (Github)
 1. [Creating a personal access token 도움말](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)에 따라 토큰 생성
@@ -57,3 +64,5 @@
 - https://sabarada.tistory.com/75
 - https://kotlinworld.com/272
 - https://suwoni-codelab.com/git/2018/04/07/Git-reflog/
+- https://backlog.com/git-tutorial/kr/stepup/stepup1_1.html
+- https://backlog.com/git-tutorial/kr/stepup/stepup2_1.html
