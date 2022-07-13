@@ -1,4 +1,4 @@
-## git 초기 설정
+## git 명령어 모
 ----
 #### git 설치
 * <code>sudo apt install git</code>
@@ -10,6 +10,7 @@
 * <code>git init</code> : git 저장소 생성 (초기화)
 * <code>git clone {url}</code> : 원격 저장소로부터 복제
 * <code>git status {경로명}</code> : 변경 사항 체크
+* <code>git remote add {등록명?/origin} {원격서버주소}</code> : 원격 저장소 추가
 
 #### 스테이징: 커밋 할 내용 추가
 
@@ -45,6 +46,12 @@
 * <code>git branch {브랜치 명}</code> : {브랜치 명}으로 브랜치 생성
 * <code>git checkout {브랜치 명}</code> : {브랜치 명} 브랜치를 체크아웃
 * <code>git branch -d {브랜치 명}</code> : {브랜치 명} 브랜치를 삭제
+
+----
+#### 메시지 작성 방식?
+1. 변경 내용 요약
+2. (줄 공백)
+3. 변경 이유
 
 ----
 #### push 시 정보 입력 (Github)
