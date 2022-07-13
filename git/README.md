@@ -1,4 +1,4 @@
-## git 명령어 모
+## git 명령어 모음
 ----
 #### git 설치
 * <code>sudo apt install git</code>
