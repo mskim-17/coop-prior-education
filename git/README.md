@@ -46,7 +46,8 @@
 * <code>git branch</code> : 로컬 브랜치 목록 조회
   * <code>git branch -r</code> 원격 브랜치 목록 조회
   * <code>git branch -a</code> 모든 브랜치 목록 조회
-* <code>git branch {브랜치 명}</code> : {브랜치 명}으로 브랜치 생성
+  * <code>git branch {브랜치 명}</code> : {브랜치 명}으로 브랜치 생성
+  * <code>git branch -M main</code> : 기본 브랜치 명을 <code>main</code>으로 변경
 * <code>git checkout {브랜치 명}</code> : {브랜치 명} 브랜치를 체크아웃
 * 병합 (<code>merge</code>)
   * <code>HEAD</code> 위치 변경 (<code>checkout</code>)
