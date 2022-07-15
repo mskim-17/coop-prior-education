@@ -52,6 +52,8 @@
 * 병합 (<code>merge</code>)
   * <code>HEAD</code> 위치 변경 (<code>checkout</code>)
   * <code>git merge {브랜치 명}</code>
+  * <code>git merge --abort</code> : 충돌 등이 발생했을 때 병합 작업 취소
+  * (<code>git commit</git> : 충돌 해결 후 커밋 입력)
 * <code>git branch -d {브랜치 명}</code> : {브랜치 명} 브랜치를 삭제
 * <code>git rebase {new base}</code> : {new base} 로 베이스 재지정
   * 참고 자료: [Git - Rebase란?](https://velog.io/@kwonh/Git-Rebase%EB%9E%80)
