@@ -45,6 +45,9 @@
 * stash : 파일의 변경 내용 일시적으로 기록
 * <code>git branch {브랜치 명}</code> : {브랜치 명}으로 브랜치 생성
 * <code>git checkout {브랜치 명}</code> : {브랜치 명} 브랜치를 체크아웃
+* 병합 (<code>merge</code>)
+  * <code>HEAD</code> 위치 변경 (<code>checkout</code>)
+  * <code>git merge {브랜치 명}</code>
 * <code>git branch -d {브랜치 명}</code> : {브랜치 명} 브랜치를 삭제
 * <code>git rebase {new base}</code> : {new base} 로 베이스 재지정
 * [Git - Rebase란?](https://velog.io/@kwonh/Git-Rebase%EB%9E%80)
