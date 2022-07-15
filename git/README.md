@@ -46,6 +46,8 @@
 * <code>git branch {브랜치 명}</code> : {브랜치 명}으로 브랜치 생성
 * <code>git checkout {브랜치 명}</code> : {브랜치 명} 브랜치를 체크아웃
 * <code>git branch -d {브랜치 명}</code> : {브랜치 명} 브랜치를 삭제
+* <code>git rebase {new base}</code> : {new base} 로 베이스 재지정
+* [Git - Rebase란?](https://velog.io/@kwonh/Git-Rebase%EB%9E%80)
 
 ----
 #### 커밋 메시지 작성 방식
