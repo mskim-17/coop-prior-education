@@ -1,5 +1,4 @@
 ## docker 명령어 모음
-----
 #### docker 설치
 * <code>curl -fsSL https://get.docker.com/ | sudo sh</code>
 #### 권한 설정 및 설치 확인
@@ -35,9 +34,8 @@
 * <code>docker pull [OPTIONS] NAME[:TAG|@DIGEST]</code> : 이미지 다운로드하기
 * <code>docker rmi [OPTIONS] IMAGE [IMAGE...]</code> : 이미지 삭제하기 (실행 중일 경우 삭제 불가)
 
-----
+
 ## Docker Compose
-----
 #### docker-compose 설치
 <pre>
 curl -L "https://github.com/docker/compose/releases/download/1.9.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose

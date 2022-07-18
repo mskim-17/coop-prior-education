@@ -1,5 +1,4 @@
 ## git 명령어 모음
-----
 #### git 설치
 * <code>sudo apt install git</code>
 #### 신원 정보 설정
@@ -58,7 +57,8 @@
 * <code>git rebase {new base}</code> : {new base} 로 베이스 재지정
   * 참고 자료: [Git - Rebase란?](https://velog.io/@kwonh/Git-Rebase%EB%9E%80)
 
-----
+
+## 팁
 #### 커밋 메시지 작성 방식
 <pre>
 Type: Subject
@@ -73,7 +73,6 @@ Footer (optional)
 * Footer: <code>유형: #이슈 번호</code> (<code>Fixes</code>, <code>Resolves</code>, <code>Ref</code>, <code>Related to</code>)
 * 참고 자료: [Git | git 커밋컨벤션 설정하기](https://velog.io/@shin6403/Git-git-%EC%BB%A4%EB%B0%8B-%EC%BB%A8%EB%B2%A4%EC%85%98-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0)
 
-----
 #### push 시 정보 입력 (Github)
 1. [Creating a personal access token 도움말](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)에 따라 토큰 생성
 2. Username에 Github ID 입력
